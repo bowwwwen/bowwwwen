@@ -1,13 +1,14 @@
 package com.bowen;
 
-import java.lang.management.BufferPoolMXBean;
-
 public class Scoring {
     public static void main(String[] args) {
-        Person Bowen = new Person();
-        Bowen.name = "Bowen";
-        Bowen.cn = 73;
-        Bowen.sc = 86;
-        System.out.println(Bowen.cn +"\t"+ Bowen.sc +"\t"+ Bowen.name);
+        Person Bowen = new Person("Bowen",76,96);
+        Person ELsa = new Person("Elsa",65,78);
+        Person Rayy = new Person("Rayy",25,66);
+        GraduateStudent Eric = new GraduateStudent("Eric", 55, 98,56);
+        Bowen.print();
+        ELsa.print();
+        Rayy.print();
+        Eric.print();
     }
 }
