@@ -16,12 +16,13 @@ public class Person {
 
     }
     public void print(){
-        int avarege =(cn+sc)/2;
-        System.out.print(name+ "\t" + cn + "\t" + sc + "\t" + avarege);
-        if (avarege<60){
-            System.out.println("*");
-        } else{
-            System.out.println();
+        System.out.print(name + "\t" + sc + "\t" + sc + "\t" + getAverage());
+        if (getAverage() < 60) {
+            System.out.print("*");
         }
+        System.out.println();
+        }
+        public int getAverage() {
+            return (cn+sc)/2;
     }
 }

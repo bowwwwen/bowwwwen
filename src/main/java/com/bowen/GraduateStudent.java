@@ -1,9 +1,19 @@
 package com.bowen;
 
 public class GraduateStudent extends Person{
-    int thisis;
-    public GraduateStudent(String name,int cn, int sc, int thisis){
+    int thesis;
+    public GraduateStudent(String name,int cn, int sc, int thesis){
         super(name,cn,sc);
-        thisis = thisis;
+        this.thesis = thesis;
+    }
+    public GraduateStudent(String name){
+        super(name);
+    }
+    @Override
+    public void print(){
+        System.out.println(name + "\t" + cn + "\t" + sc + "\t" + getAverage()+ "\t" + thesis);
+        if (getAverage() < 60) {
+            System.out.print("*");
+        }
     }
 }
