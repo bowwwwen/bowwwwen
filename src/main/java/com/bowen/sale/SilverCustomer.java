@@ -1,4 +1,4 @@
-package com.bowen;
+package com.bowen.sale;
 
 public class SilverCustomer extends NormalCustomer{
     public SilverCustomer(String id,int amount){
@@ -6,6 +6,7 @@ public class SilverCustomer extends NormalCustomer{
         this.amount = amount;
     }
     public void print(){
+        float bonus = (amount/1000)*200;
         float free = (amount/1000)*100;
         float total = amount - free;
         if (total>1000){
@@ -13,8 +14,5 @@ public class SilverCustomer extends NormalCustomer{
         }else {
             System.out.println(id+"\t"+amount+"\t"+"\t"+total+"("+ bonus +")");
         }
-    }
-    public int bouns(){
-        return (int) (amount*0.1f);
     }
 }

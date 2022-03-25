@@ -1,4 +1,4 @@
-package com.bowen;
+package com.bowen.score;
 
 public class ScoringNG {
     public static void main(String[] args) {

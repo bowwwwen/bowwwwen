@@ -1,4 +1,4 @@
-package com.bowen;
+package com.bowen.sale;
 
 public class NormalCustomer{
     String id;

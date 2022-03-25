@@ -1,4 +1,4 @@
-package com.bowen;
+package com.bowen.score;
 
 public class Person {
     int cn;
