@@ -7,8 +7,8 @@ public class GoldenCustomers extends NormalCustomer{
 
     }
     public void print(){
-        float bonus = (amount/1000)*200;
-        float free = (amount/1000)*200;
+        float bonus = amount*0.1f;
+        float free = amount*0.1f;
         float total = amount - free;
         if (total>1000){
             System.out.println(id + "\t" + amount + "\t" + total +"("+bonus+")");

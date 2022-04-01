@@ -11,8 +11,19 @@ public class Ticket {
     public Ticket(Station start,Station end) {
         this.start = start;
         this.end = end;
+        int n = start.id +end.id;
+        switch (n){
+            case(1):
+                n = 300;
+                price = 600;
+            case (2):
+                n = 400;
+                price = 900;
+            case (3):
+                n = 600;
+                price = 1500;
+        }
     }
     public void print(){
-
     }
 }

@@ -5,6 +5,11 @@ public class SilverCustomer extends NormalCustomer{
         this.id = id;
         this.amount = amount;
     }
+
+    public SilverCustomer() {
+
+    }
+
     public void print(){
         float bonus = (amount/1000)*200;
         float free = (amount/1000)*100;
