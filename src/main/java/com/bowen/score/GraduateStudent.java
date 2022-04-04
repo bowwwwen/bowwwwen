@@ -6,9 +6,7 @@ public class GraduateStudent extends Person {
         super(name,cn,sc);
         this.thesis = thesis;
     }
-    public GraduateStudent(String name){
-        super(name);
-    }
+
     @Override
     public void print(){
         System.out.println(name + "\t" + cn + "\t" + sc + "\t" + getAverage()+ "\t" + thesis);

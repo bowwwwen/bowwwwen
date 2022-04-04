@@ -1,5 +1,4 @@
 package com.bowen.ticket;
-import com.bowen.ticket.Station;
 
 public class Ticket {
     public static final int TAIPEI_STATION= 100;
