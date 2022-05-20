@@ -24,9 +24,9 @@ public class MainWindow {
 //        frame.setLayout(new BorderLayout());
         frame.add(button);
         frame.setVisible(true);
-        System.out.println("start");
         frame.add(button1);
         frame.setVisible(true);
+        System.out.println("start");
         System.out.println("end");
 
     }
