@@ -5,6 +5,7 @@ public class MyClass implements MyInterface{
         System.out.println("MyInterface");
     }
     public int max(int a, int b) {
+
         return 100;
     }
 }

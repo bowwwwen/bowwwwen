@@ -5,7 +5,7 @@ import java.util.Date;
 
 public class Running {
     public static void main(String[] args) {
-        String id = "ABC-1234";
+//        String id = "ABC-1234";
         String enterTime = "08:27";
         String exitTime = "12:56";
         SimpleDateFormat sdf = new SimpleDateFormat("HH:mm");

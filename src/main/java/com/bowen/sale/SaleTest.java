@@ -1,6 +1,5 @@
 package com.bowen.sale;
 
-import java.rmi.activation.ActivationGroupID;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -16,6 +15,11 @@ public class SaleTest {
         customers.add(new GoldenCustomers("0004",3200));
         customers.add(new PlatinumCustomers("0005",700));
         customers.add(new GoldenCustomeres2("0007",3200));
+        MyClass m = new MyClass();
+        m.max(100,200);
+        m.getClass();
+        m.print();
+
 
 //        for (int i = 0; i < 6; i++) {
 //           customers.get(i);
@@ -30,6 +34,7 @@ public class SaleTest {
             System.out.println(c instanceof GoldenCustomers);
             System.out.println(gc.bonus);
         }
+
 //        System.out.println(c instanceof SilverCustomer);
 ////        avoid stupid
 //        SilverCustomer sc = (SilverCustomer) c;
