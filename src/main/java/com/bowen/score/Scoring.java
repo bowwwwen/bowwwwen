@@ -2,9 +2,9 @@ package com.bowen.score;
 
 public class Scoring {
     public static void main(String[] args) {
-        Person Bowen = new Person("Bowen",76,96);
-        Person ELsa = new Person("Elsa",65,78);
-        Person Rayy = new Person("Rayy",25,66);
+        Student Bowen = new Student("Bowen",76,96);
+        Student ELsa = new Student("Elsa",65,78);
+        Student Rayy = new Student("Rayy",25,66);
         GraduateStudent Eric = new GraduateStudent("Eric", 55, 38,56);
         Bowen.print();
         ELsa.print();
